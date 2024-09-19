@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Cleartrip_Flight.Project02.Login_with_valid_cred">
+        <methods>
+          <include name="Launch_Browser"/>
+          <include name="login"/>
+          <include name="Quit_Browser"/>
+        </methods>
+      </class> <!-- Cleartrip_Flight.Project02.Login_with_valid_cred -->
+      <class name="Cleartrip_Flight.Project02.Seat_Selection">
+        <methods>
+          <include name="Launch_Browser"/>
+          <include name="roundway"/>
+          <include name="Quit_Browser"/>
+        </methods>
+      </class> <!-- Cleartrip_Flight.Project02.Seat_Selection -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
